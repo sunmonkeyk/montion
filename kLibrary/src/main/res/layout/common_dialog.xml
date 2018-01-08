@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="262dp"
+    android:layout_height="134dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@mipmap/dialog_bg" >
+
+    <TextView
+        android:id="@+id/mTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:lineSpacingExtra="3dp"
+        android:text="确认该话题?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp" >
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/sure_bg"
+            android:gravity="center"
+            android:text="@string/dialog_sure"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_weight="1"
+            android:background="@mipmap/cancel_bg"
+            android:gravity="center"
+            android:text="@string/dialog_cancel"
+            android:textColor="@color/orange_color" />
+    </LinearLayout>
+
+</RelativeLayout>

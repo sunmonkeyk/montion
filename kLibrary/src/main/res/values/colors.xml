@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--纯色-->
+	<color name="white">#ffffff</color>
+	<color name="dailog_text_other">#666666</color>
+	<color name="bg">#f8f8f8</color>
+	<color name="bg_1">#f4f4f4</color>
+	<color name="black">#000000</color>
+	<color name="white_b">#60ffffff</color>
+	<color name="red">#ff3030</color>
+	<color name="order_bg">#f0eff5</color>
+	<color name="line">#ddd</color>
+	<color name="line_1">#bbb</color>
+	<color name="gray">#808080</color>
+	<color name="grey">#EEEEEE</color>
+	<color name="text_color">#4b4b4b</color>
+	<color name="backgorud_color">#ededed</color>
+	<color name="viewfinder_mask">#60000000</color>
+	<color name="result_view">#b0000000</color>
+	<color name="list_view_item_focus_color">#4fa040</color>
+	<color name="possible_result_points">#c0ffff00</color>
+	<color name="theme_body">#cc22292c</color>
+	<color name="tab_unselect">#c9c9c9</color>
+	<!--状态栏颜色-->
+	<color name="color_login_background">#F85170</color>
+	<!--其他颜色-->
+	<color name="main_bg_color">#bcbcbc</color>
+	<color name="province_line_border">#C7C7C7</color>
+	<color name="dailog_sure_or_cancel">#2f2f2f</color>
+	<color name="dailog_background">#D9D9D9</color>
+	<color name="orange_color">#ff9b03</color>
+	<color name="divider">#ffd2d2d2</color>
+	<color name="header_bg">#e6e6e6</color>
+	<color name="colorPrimary">#F44336</color>
+	<!-- 透明 -->
+	<color name="result_view_transparent">#00000000</color>
+	<color name="b_transparent">#7fffffff</color>
+	<color name="title_text">#bbb</color>
+	<color name="title_sel">#454545</color>
+	<color name="title_top">#FF9C03</color>
+	<color name="title_top_text">#2f2f2f</color>
+	<color name="title_top_right">#666</color>
+	<color name="text_hint">#bbb</color>
+	<color name="item_text">#2f2f2f</color>
+	<color name="light_blue">#6593cb</color>
+	<color name="home_base_background">#999999</color>
+
+	<!--// dialog 弹出框显示的背景色-->
+	<color name="text_color_gray">#9b9b9b</color>
+	<color name="loging_selecter_backgroutd_color1">#F86970</color>
+	<color name="loging_selecter_backgroutd_color">#F85170</color>
+	<color name="status_bar">#303135</color>
+
+
+	<color name="viewfinder_frame">#ff000000</color>
+	<color name="viewfinder_laser">#ffff0000</color>
+	<color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+
+</resources>

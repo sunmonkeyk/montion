@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 圆型图片带边框 -->
+    <declare-styleable name="RoundSlideImageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TabView">
+        <attr name="tab_text_select_color" format="reference|color" />
+        <attr name="tab_text_un_select_color" format="reference|color" />
+        <attr name="tab_back_ground_color" format="reference|color" />
+        <attr name="tab_height" format="dimension"/>
+        <attr name="tab_img_to_text_gap" format="dimension" />
+        <attr name="tab_text_size" format="dimension" />
+        <attr name="tab_img_width" format="dimension" />
+        <attr name="tab_img_height" format="dimension" />
+        <attr name="tab_gravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+        </attr>
+        <attr name="tab_position" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="BorderTextView">
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="followTextColor" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="item_count" format="integer"></attr>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="item_count" />
+    </declare-styleable>
+
+    <declare-styleable name="CircledImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+
+    <!--//自定义控件相关的-->
+    <declare-styleable name="AutoLayout_Layout">
+
+        <attr name="layout_auto_basewidth">
+            <flag name="width" value="1"></flag>
+            <flag name="height" value="2"></flag>
+            <flag name="textSize" value="4"></flag>
+            <flag name="padding" value="8"></flag>
+            <flag name="margin" value="16"></flag>
+            <flag name="marginLeft" value="32"></flag>
+            <flag name="marginTop" value="64"></flag>
+            <flag name="marginRight" value="128"></flag>
+            <flag name="marginBottom" value="256"></flag>
+            <flag name="paddingLeft" value="512"></flag>
+            <flag name="paddingTop" value="1024"></flag>
+            <flag name="paddingRight" value="2048"></flag>
+            <flag name="paddingBottom" value="4096"></flag>
+        </attr>
+
+        <attr name="layout_auto_baseheight">
+            <flag name="width" value="1"></flag>
+            <flag name="height" value="2"></flag>
+            <flag name="textSize" value="4"></flag>
+            <flag name="padding" value="8"></flag>
+            <flag name="margin" value="16"></flag>
+            <flag name="marginLeft" value="32"></flag>
+            <flag name="marginTop" value="64"></flag>
+            <flag name="marginRight" value="128"></flag>
+            <flag name="marginBottom" value="256"></flag>
+            <flag name="paddingLeft" value="512"></flag>
+            <flag name="paddingTop" value="1024"></flag>
+            <flag name="paddingRight" value="2048"></flag>
+            <flag name="paddingBottom" value="4096"></flag>
+            <flag name="minWidth" value="8192"></flag>
+            <flag name="maxWidth" value="16384"></flag>
+            <flag name="minHeight" value="32768"></flag>
+            <flag name="maxHeight" value="65536"></flag>
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="MetroLayout">
+        <attr name="metro_divider" format="dimension"></attr>
+    </declare-styleable>
+
+    <!--  图片选择的自定义控件-->
+    <declare-styleable name="CropImageView">
+        <attr name="cropMaskColor" format="color"/>
+        <attr name="cropBorderColor" format="color"/>
+        <attr name="cropBorderWidth" format="dimension"/>
+        <attr name="cropFocusWidth" format="dimension"/>
+        <attr name="cropFocusHeight" format="dimension"/>
+        <attr name="cropStyle" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="circle" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AVLoadingIndicatorView">
+        <!-- **********处理ExandListview**************-->
+        <attr name="indicator">
+            <flag name="BallPulse" value="0" />
+            <flag name="BallGridPulse" value="1" />
+            <flag name="BallClipRotate" value="2" />
+            <flag name="BallClipRotatePulse" value="3" />
+            <flag name="SquareSpin" value="4" />
+            <flag name="BallClipRotateMultiple" value="5" />
+            <flag name="BallPulseRise" value="6" />
+            <flag name="BallRotate" value="7" />
+            <flag name="CubeTransition" value="8" />
+            <flag name="BallZigZag" value="9" />
+            <flag name="BallZigZagDeflect" value="10" />
+            <flag name="BallTrianglePath" value="11" />
+            <flag name="BallScale" value="12" />
+            <flag name="LineScale" value="13" />
+            <flag name="LineScaleParty" value="14" />
+            <flag name="BallScaleMultiple" value="15" />
+            <flag name="BallPulseSync" value="16" />
+            <flag name="BallBeat" value="17" />
+            <flag name="LineScalePulseOut" value="18" />
+            <flag name="LineScalePulseOutRapid" value="19" />
+            <flag name="BallScaleRipple" value="20" />
+            <flag name="BallScaleRippleMultiple" value="21" />
+            <flag name="BallSpinFadeLoader" value="22" />
+            <flag name="LineSpinFadeLoader" value="23" />
+            <flag name="TriangleSkewSpin" value="24" />
+            <flag name="Pacman" value="25" />
+            <flag name="BallGridBeat" value="26" />
+            <flag name="SemiCircleSpin" value="27" />
+        </attr>
+        <attr name="indicator_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PagerTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsTextItemColor" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="selectableItemBackgroundBorderless">
+
+    </declare-styleable>
+    <declare-styleable name="AppCompatTheme">
+        <attr format="boolean" name="windowActionBar"/>
+        <attr format="boolean" name="windowNoTitle"/>
+        <attr format="boolean" name="windowActionBarOverlay"/>
+        <attr format="boolean" name="windowActionModeOverlay"/>
+        <attr format="dimension|fraction" name="windowFixedWidthMajor"/>
+        <attr format="dimension|fraction" name="windowFixedHeightMinor"/>
+        <attr format="dimension|fraction" name="windowFixedWidthMinor"/>
+        <attr format="dimension|fraction" name="windowFixedHeightMajor"/>
+        <attr format="dimension|fraction" name="windowMinWidthMajor"/>
+        <attr format="dimension|fraction" name="windowMinWidthMinor"/>
+        <attr name="android:windowIsFloating"/>
+        <attr name="android:windowAnimationStyle"/>
+        <attr format="reference" name="actionBarTabStyle"/>
+        <attr format="reference" name="actionBarTabBarStyle"/>
+        <attr format="reference" name="actionBarTabTextStyle"/>
+        <attr format="reference" name="actionOverflowButtonStyle"/>
+        <attr format="reference" name="actionOverflowMenuStyle"/>
+        <attr format="reference" name="actionBarPopupTheme"/>
+        <attr format="reference" name="actionBarStyle"/>
+        <attr format="reference" name="actionBarSplitStyle"/>
+        <attr format="reference" name="actionBarTheme"/>
+        <attr format="reference" name="actionBarWidgetTheme"/>
+        <attr format="dimension" name="actionBarSize">
+                <enum name="wrap_content" value="0"/>
+        </attr>
+        <attr format="reference" name="actionBarDivider"/>
+        <attr format="reference" name="actionBarItemBackground"/>
+        <attr format="reference" name="actionMenuTextAppearance"/>
+        <attr format="color|reference" name="actionMenuTextColor"/>
+        <attr format="reference" name="actionModeStyle"/>
+        <attr format="reference" name="actionModeCloseButtonStyle"/>
+        <attr format="reference" name="actionModeBackground"/>
+        <attr format="reference" name="actionModeSplitBackground"/>
+        <attr format="reference" name="actionModeCloseDrawable"/>
+        <attr format="reference" name="actionModeCutDrawable"/>
+        <attr format="reference" name="actionModeCopyDrawable"/>
+        <attr format="reference" name="actionModePasteDrawable"/>
+        <attr format="reference" name="actionModeSelectAllDrawable"/>
+        <attr format="reference" name="actionModeShareDrawable"/>
+        <attr format="reference" name="actionModeFindDrawable"/>
+        <attr format="reference" name="actionModeWebSearchDrawable"/>
+        <attr format="reference" name="actionModePopupWindowStyle"/>
+        <attr format="reference" name="textAppearanceLargePopupMenu"/>
+        <attr format="reference" name="textAppearanceSmallPopupMenu"/>
+        <attr format="reference" name="textAppearancePopupMenuHeader"/>
+        <attr format="reference" name="dialogTheme"/>
+        <attr format="dimension" name="dialogPreferredPadding"/>
+        <attr format="reference" name="listDividerAlertDialog"/>
+        <attr format="reference" name="actionDropDownStyle"/>
+        <attr format="dimension" name="dropdownListPreferredItemHeight"/>
+        <attr format="reference" name="spinnerDropDownItemStyle"/>
+        <attr format="reference" name="homeAsUpIndicator"/>
+        <attr format="reference" name="actionButtonStyle"/>
+        <attr format="reference" name="buttonBarStyle"/>
+        <attr format="reference" name="buttonBarButtonStyle"/>
+        <attr format="reference" name="selectableItemBackground"/>
+        <attr format="reference" name="selectableItemBackgroundBorderless"/>
+        <attr format="reference" name="borderlessButtonStyle"/>
+        <attr format="reference" name="dividerVertical"/>
+        <attr format="reference" name="dividerHorizontal"/>
+        <attr format="reference" name="activityChooserViewStyle"/>
+        <attr format="reference" name="toolbarStyle"/>
+        <attr format="reference" name="toolbarNavigationButtonStyle"/>
+        <attr format="reference" name="popupMenuStyle"/>
+        <attr format="reference" name="popupWindowStyle"/>
+        <attr format="reference|color" name="editTextColor"/>
+        <attr format="reference" name="editTextBackground"/>
+        <attr format="reference" name="imageButtonStyle"/>
+        <attr format="reference" name="textAppearanceSearchResultTitle"/>
+        <attr format="reference" name="textAppearanceSearchResultSubtitle"/>
+        <attr format="reference|color" name="textColorSearchUrl"/>
+        <attr format="reference" name="searchViewStyle"/>
+        <attr format="dimension" name="listPreferredItemHeight"/>
+        <attr format="dimension" name="listPreferredItemHeightSmall"/>
+        <attr format="dimension" name="listPreferredItemHeightLarge"/>
+        <attr format="dimension" name="listPreferredItemPaddingLeft"/>
+        <attr format="dimension" name="listPreferredItemPaddingRight"/>
+        <attr format="reference" name="dropDownListViewStyle"/>
+        <attr format="reference" name="listPopupWindowStyle"/>
+        <attr format="reference" name="textAppearanceListItem"/>
+        <attr format="reference" name="textAppearanceListItemSmall"/>
+        <attr format="reference" name="panelBackground"/>
+        <attr format="dimension" name="panelMenuListWidth"/>
+        <attr format="reference" name="panelMenuListTheme"/>
+        <attr format="reference" name="listChoiceBackgroundIndicator"/>
+        <attr format="color" name="colorPrimary"/>
+        <attr format="color" name="colorPrimaryDark"/>
+        <attr format="color" name="colorAccent"/>
+        <attr format="color" name="colorControlNormal"/>
+        <attr format="color" name="colorControlActivated"/>
+        <attr format="color" name="colorControlHighlight"/>
+        <attr format="color" name="colorButtonNormal"/>
+        <attr format="color" name="colorSwitchThumbNormal"/>
+        <attr format="reference" name="controlBackground"/>
+        <attr format="color" name="colorBackgroundFloating"/>
+        <attr format="reference" name="alertDialogStyle"/>
+        <attr format="reference" name="alertDialogButtonGroupStyle"/>
+        <attr format="boolean" name="alertDialogCenterButtons"/>
+        <attr format="reference" name="alertDialogTheme"/>
+        <attr format="reference|color" name="textColorAlertDialogListItem"/>
+        <attr format="reference" name="buttonBarPositiveButtonStyle"/>
+        <attr format="reference" name="buttonBarNegativeButtonStyle"/>
+        <attr format="reference" name="buttonBarNeutralButtonStyle"/>
+        <attr format="reference" name="autoCompleteTextViewStyle"/>
+        <attr format="reference" name="buttonStyle"/>
+        <attr format="reference" name="buttonStyleSmall"/>
+        <attr format="reference" name="checkboxStyle"/>
+        <attr format="reference" name="checkedTextViewStyle"/>
+        <attr format="reference" name="editTextStyle"/>
+        <attr format="reference" name="radioButtonStyle"/>
+        <attr format="reference" name="ratingBarStyle"/>
+        <attr format="reference" name="ratingBarStyleIndicator"/>
+        <attr format="reference" name="ratingBarStyleSmall"/>
+        <attr format="reference" name="seekBarStyle"/>
+        <attr format="reference" name="spinnerStyle"/>
+        <attr format="reference" name="switchStyle"/>
+        <attr format="reference" name="listMenuViewStyle"/>
+    </declare-styleable>
+
+    <!--<item name="selectableItemBackgroundBorderless">?attr/selectableItemBackground</item>-->
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="line">0.5dip</dimen>
+    <dimen name="line_min">1dip</dimen>
+    <dimen name="title_height">49dip</dimen>
+    <dimen name="img_border">2.5dip</dimen>
+    <!-- 普通对话框宽度 -->
+    <dimen name="dialog_width">270dip</dimen>
+    <dimen name="dialog_width_big">120dip</dimen>
+    <!-- 普通对话框上部分高度 -->
+    <dimen name="dialog_up_height">86dip</dimen>
+    <!-- 普通对话框下部分高度 -->
+    <dimen name="dialog_down_height">50dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="lottery_item_padding">4dp</dimen>
+    <dimen name="lottery_item_margin_top">8dp</dimen>
+    <!-- padding -->
+    <dimen name="basicPadding">4.0dip</dimen>
+    <dimen name="basicPadding_">6.0dip</dimen>
+    <dimen name="smallPadding">8.0dip</dimen>
+    <dimen name="middlePadding">10.0dip</dimen>
+    <dimen name="normalPadding">12.0dip</dimen>
+    <dimen name="other_middlePadding">15.0dip</dimen>
+    <dimen name="bigPadding">20.0dip</dimen>
+    <dimen name="image_size">78.9dip</dimen>
+    <!-- Margin -->
+    <dimen name="basicMargin">4.0dip</dimen>
+    <dimen name="littleMargin">8dp</dimen>
+    <dimen name="smallMargin">16dp</dimen>
+    <dimen name="middleMargin">28dp</dimen>
+    <dimen name="bigMargin">40dp</dimen>
+    <dimen name="SuperMargin">60dp</dimen>
+    <!-- text_size -->
+    <dimen name="smallest_text_size">6sp</dimen>
+    <dimen name="tiny_text_size">8sp</dimen>
+    <dimen name="smaller_text_size">10sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="small_text_size_">15sp</dimen>
+    <dimen name="big_text_size">16sp</dimen>
+    <dimen name="super_big_text_size">18sp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
+    <!--photoselector-->
+    <dimen name="layout_title_heigh">45dp</dimen>
+    <dimen name="layout_title_content_heigh">30dp</dimen>
+    <dimen name="layout_title_mini_textsize">16sp</dimen>
+</resources>

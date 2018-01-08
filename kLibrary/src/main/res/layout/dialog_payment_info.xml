@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/b_transparent"
+    android:paddingTop="@dimen/basicMargin"
+    android:paddingBottom="@dimen/basicMargin"
+    android:orientation="vertical" >
+        <TextView
+            android:id="@+id/btn_confirm_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@drawable/app_dialog_btn_bg"
+            android:padding="@dimen/normalPadding"
+            android:text="@string/weixin_pay"
+            android:textColor="@color/dailog_sure_or_cancel"
+            android:layout_margin="@dimen/basicMargin"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/btn_cancel_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="@dimen/normalPadding"
+            android:text="@string/dialog_cancel"
+            android:background="@drawable/app_dialog_btn_bg"
+            android:textColor="@color/dailog_sure_or_cancel"
+            android:layout_margin="@dimen/basicMargin"
+            android:textSize="16sp" />
+</LinearLayout>
