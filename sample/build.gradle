@@ -27,9 +27,10 @@ dependencies {
     compile 'com.tencent.sonic:sdk:2.0.0'
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
-    //compile 'com.android.support:design:25.3.1'
     testCompile 'junit:junit:4.12'
     compile project(':kLibrary')
     //compile 'org.xutils:xutils:3.5.0'
-    // compile 'com.github.sunmonkeyk:kLibraryKotlin:1.0.2'
+     //compile 'com.github.sunmonkeyk:montion:v1.0.2'
+    //compile 'com.github.ChenJunXu:OpenSourceDemo:v1.0'
+
 }
