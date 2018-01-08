@@ -39,16 +39,12 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     testCompile 'junit:junit:4.12'
-    compile files('libs/android-support-design.jar')
     compile 'com.amap.api:search:latest.integration'
     compile 'com.amap.api:location:latest.integration'
     // 定位
     compile 'javax.annotation:javax.annotation-api:1.2'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     compile 'com.android.support:design:25.2.0'
-}
-repositories {
-    mavenCentral()
 }
 //打包任务
 //task makeJar(type:org.gradle.api.tasks.bundling.Jar) {
